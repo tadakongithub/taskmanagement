@@ -1,0 +1,298 @@
+body{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+/*index*/
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 0;
+  margin-bottom: 200px;
+}
+
+.logout{
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: right;
+}
+
+.logout a{
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #696867;
+  padding: 3px;
+  color: #696867;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+table {
+    border-collapse: separate;
+    border: none;
+    width: 1000px;
+    text-align: center;
+    border-spacing: 0px 20px;
+    margin-bottom: 50px;
+  }
+
+  caption{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+th{
+  border: none;
+  width: 7%;
+  height: 30px;
+}
+
+td{
+  border: none;
+  width: 7%;
+  height: 30px;
+}
+
+th:first-child{
+  width: 16%;
+}
+
+th:first-child{
+  width: 16%;
+}
+
+td:nth-child(2){
+  border-radius: 15px 0 0 15px;
+  -o-border-radius: 15px 0 0 15px;
+  -ms-border-radius:15 0 0 15px;
+  -webkit-border-radius: 15px 0 0 15px;
+  -moz-border-radius: 15px 0 0 15px;
+}
+
+td:nth-child(12){
+  border-radius: 0 15px 15px 0;
+  -o-border-radius: 0 15px 15px 0;
+  -ms-border-radius: 0 15px 15px 0;
+  -webkit-border-radius: 0 15px 15px 0;
+  -moz-border-radius: 0 15px 15px 0;
+}
+
+
+
+/*progress*/
+
+.progress_body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form_container{
+  text-align: center;
+}
+
+form{
+  display: inline-block;
+}
+
+.head_form{
+  display: inline-block;
+  width: 200px;
+  margin: 30px 10px 30px;
+}
+
+select{
+  width: 200px;
+  height: 30px;
+  margin: 30px 10px 30px;
+  font-size: 16px;
+}
+
+.submit{
+  margin-top: 100px;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(255, 0, 191);
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+  transition: all .3s linear;
+   -o-transition: all .3s linear;
+   -moz-transition: all .3s linear;
+   -webkit-transition: all .3s linear;
+}
+
+.submit:hover{
+  background-color: #fff;
+  border: 2px solid rgb(255, 0, 191);
+  color: rgb(255, 0, 191);
+}
+
+.to_table_2{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  
+/*thanks*/
+.thanks_body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hard_work{
+  color: rgb(87, 87, 87);
+}
+
+.two_buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.to_table{
+  box-sizing: border-box;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(0, 187, 0);
+  text-align: center;
+  transition: all .3s linear;
+   -o-transition: all .3s linear;
+   -moz-transition: all .3s linear;
+   -webkit-transition: all .3s linear;
+}
+
+.to_table:hover{
+  background-color: #fff;
+  border: 2px solid rgb(0, 187, 0);
+}
+
+.to_table a{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  width: 200px;
+  line-height: 40px;
+  color: #fff;
+  transition: all .3s linear;
+   -o-transition: all .3s linear;
+   -moz-transition: all .3s linear;
+   -webkit-transition: all .3s linear;
+}
+
+.to_table a:hover{
+  color: rgb(0, 187, 0);
+}
+
+.to_progress{
+  box-sizing: border-box;
+  width: 200px;
+  height: 40px;
+  background-color: #0060ff;
+  text-align: center;
+  transition: all .3s linear;
+   -o-transition: all .3s linear;
+   -moz-transition: all .3s linear;
+   -webkit-transition: all .3s linear;
+   position: relative;
+}
+
+.to_progress:hover{
+  background-color: #fff;
+  border: 2px solid #0060ff;
+}
+
+.to_progress a{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  width: 200px;
+  line-height: 40px;
+  color: #fff;
+  transition: all .3s linear;
+   -o-transition: all .3s linear;
+   -moz-transition: all .3s linear;
+   -webkit-transition: all .3s linear;
+}
+
+.to_progress a:hover{
+  color: #0060ff;
+}
+
+
+/*login*/
+.login_body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_form{
+  width: 500px;
+  height: 500px;
+}
+
+.login_form h3{
+  text-align: center;
+}
+
+.login_form form{
+  text-align: center;
+  width: 400px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.login_input{
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.login_submit{
+  width: 150px;
+  height: 36px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #ff5100;
+  font-weight: 600;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -o-border-radius: 18px;
+  border-radius: 15px;
+  transition: all .3s linear;
+   -o-transition: all .3s linear;
+   -moz-transition: all .3s linear;
+   -webkit-transition: all .3s linear;
+   position: relative;
+}
+
+.login_submit:hover{
+  border: 2px solid #ff5100;
+  background-color: #fff;
+  color: #ff5100;
+}
+
+.error{
+  color: red;
+}
+
+.id-pass{
+  color: red;
+}
+ 
